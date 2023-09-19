@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository // 컴포넌트 스캔 방식으로 자동 의존관계 설정
+//@Repository // 컴포넌트 스캔 방식으로 자동 의존관계 설정
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
